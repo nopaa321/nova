@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Pakaian kami</title>
+    <!-- Bootstrap CSS -->
+    <link href= rel="stylesheet">
+    <style>
+        .hero-section {
+            height: 100vh;
+            background: url('image/pakaian\ 1') no-repeat center center;
+            background-size: cover;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+
+        .product-card {
+            margin-bottom: 30px;
+        }
+
+        .about-section {
+            padding: 60px 0;
+            background-color: #f8f9fa;
+        }
+
+        .contact-section {
+            padding: 40px 0;
+            background-color: #343a40;
+            color: white;
+        }
+
+        .cta-btn {
+            background-color: #000000;
+            color: white;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigasi -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Toko Pakaian</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Produk</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section text-center">
+    <div>
+        <h1>Temukan Gaya Anda di Toko Pakaian Kami</h1>
+        <a href="#produk" class="btn btn-primary mt-4">Belanja Sekarang</a>
+    </div>
+</section>
+
+<!-- Produk Section -->
+<section id="produk" class="container my-5">
+    <h2 class="text-center mb-4">Produk Kami</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="image/pakaian 2" class="card-img-top" alt="Produk 1">
+                <div class="card-body">
+                    <h5 class="card-title">sweeter</h5>
+                    <p class="card-text">sweeter dengan bhan yang lembut dan tebal.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="image/pakaian 3" class="card-img-top" alt="Produk 2">
+                <div class="card-body">
+                    <h5 class="card-title">set hem</h5>
+                    <p class="card-text">memiliki bahan yang halus dan nyaman dipakai.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card product-card">
+                <img src="image/pakaian 4" class="card-img-top" alt="Produk 3">
+                <div class="card-body">
+                    <h5 class="card-title">pakaian anak</h5>
+                    <p class="card-text">bahan yang dingin cocok dipakai sehari-hari.</p>
+                    <a href="#" class="btn btn-primary">Beli Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Tentang Kami Section -->
+<section class="about-section text-center">
+    <div class="container">
+        <h2>Tentang Kami</h2>
+        <p>Di Toko Pakaian Kami, kami menawarkan berbagai pilihan pakaian berkualitas tinggi dengan desain terkini. Kami berkomitmen untuk memberikan pengalaman berbelanja yang menyenangkan dan mudah untuk semua pelanggan kami.</p>
+        <a href="#kontak" class="btn btn-primary">Hubungi Kami</a>
+    </div>
+</section>
+
+<!-- Kontak Section -->
+<section id="kontak" class="contact-section text-center">
+    <div class="container">
+        <h2>Kontak Kami</h2>
+        <p>Jika Anda memiliki pertanyaan atau ingin mengetahui lebih lanjut tentang produk kami, silakan hubungi kami melalui detail di bawah ini:</p>
+        <p>Email: novalia@gmail.com </p>
+        <p>Telepon: 085792252210</p>
+        <a href="mailto:info@tokopakaian.com" class="btn cta-btn">Email Kami</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-center py-4">
+    <p>&copy; 2024 Toko Pakaian Kami. Semua hak dilindungi.</p>
+</footer>
+
+<!-- Bootstrap JS dan dependensi -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
